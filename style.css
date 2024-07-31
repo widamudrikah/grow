@@ -1,0 +1,561 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root {
+    --primary-color: #4870FE;
+    --text-color: #000000;
+    --text-grey: #aaaaaa80;
+    --text-white: #ffff;
+}
+
+section {
+    padding-left: 73px;
+    padding-right: 73px;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-left: 73px;
+    padding-right: 73px;
+    align-items: center;
+}
+
+.menu-item {
+    margin-right: 77px;
+    font-size: 18px;
+    color: var(--text-color);
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--text-white);
+    padding: 8px 28px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-line {
+    background-color: transparent;
+    color: var(--primary-color);
+    border: 1.5px solid var(--primary-color);
+    padding: 8px 28px;
+    border-radius: 8px;
+    margin-left: 18px;
+    cursor: pointer;
+}
+
+/* Hero Section */
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-left span {
+    font-weight: 700;
+    letter-spacing: 1.89px;
+}
+
+.hero-left h2 {
+    color: #000;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    margin-top: 37px;
+    width: 780px;
+}
+
+.dunia {
+    color: var(--primary-color);
+}
+
+.hero-left p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 647px;
+}
+
+.hero-left button {
+    margin-top: 52px;
+}
+
+.hero-right {
+    align-items: center;
+}
+
+
+.brands {
+    background-color: var(--text-grey);
+    justify-content: center;
+    /* Pusatkan konten secara horizontal */
+    align-items: center;
+    /* Pusatkan konten secara vertikal */
+    padding-left: 73px;
+    padding-right: 73px;
+}
+
+.brand-wrapper {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Why */
+.why-grow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.why-left {
+    display: flex;
+    justify-content: center;
+    /* Pusatkan konten secara horizontal */
+    align-items: center;
+    /* Pusatkan konten secara vertikal */
+}
+
+.why-left img {
+    max-width: 100%;
+    /* Pastikan gambar tidak melebihi lebar container */
+    height: auto;
+    /* Pertahankan rasio aspek gambar */
+}
+
+
+.why-right h1 {
+    color: var(--text-color);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 33px;
+}
+
+.why-grow span {
+    color: var(--primary-color);
+}
+
+.benefit {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.benefit .benefit-desc {
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+    border-radius: 12px;
+    width: 526px;
+    height: 80px;
+    padding: 20px 20px 20px 35px;
+    /*atas kanan kiri bawah*/
+    position: relative;
+}
+
+.img-wrapper {
+    position: absolute;
+    left: -23px;
+    top: 40px;
+}
+
+.benefit-desc h5 {
+    color: var(--text-color);
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.benefit-desc p {
+    color: #292929;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* New Program */
+
+.new-program {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.new-program h1 {
+    color: var(--text-color);
+    text-align: left;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.program-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 44px;
+}
+
+.new-program h1 span {
+    color: var(--primary-color);
+}
+
+.program img {
+    margin-bottom: 21px;
+}
+
+.program .program-name {
+    color: var(--text-color);
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 14px;
+}
+
+.program .level-mudah {
+    background-color: #55B627;
+    padding: 5px 20px;
+    color: var(--text-white);
+    border-radius: 5px;
+    border: 2px solid #B0FF95;
+}
+
+.program .level-menengah {
+    border: 2px solid #FFF736;
+    background: rgba(241, 117, 2, 0.88);
+    padding: 5px 20px;
+    color: var(--text-white);
+    border-radius: 5px;
+}
+
+.program .level-sulit {
+    border: 2px solid #F67796;
+    background: #EE0D0E;
+    padding: 5px 20px;
+    color: var(--text-white);
+    border-radius: 5px;
+}
+
+.program .price {
+    margin-top: 20px;
+}
+
+.selling-price {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    margin-right: 15px;
+}
+
+.ori-price {
+    color: var(--text-grey);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: line-through;
+}
+
+.program-desc {
+    color: rgba(0, 0, 0, 0.50);
+    width: 396px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+/* Partners */
+.partners {
+    padding-left: 73px;
+    padding-right: 73px;
+    padding-bottom: 40px;
+    background-color: #FCFCFC;
+}
+
+.partners h2 {
+    color: var(--primary-color);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.partners h2 span {
+    color: var(--text-color);
+}
+
+.partner-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+/* Mentor */
+.mentors {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /*ini biar tengah secara vertikal*/
+    background-color: #FCFCFC;
+}
+.mentors h1 {
+    color: var(--text-color);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.mentors h1 span {
+    color: var(--primary-color);
+}
+
+.mentors .sub-title {
+    color: var(--text-color);
+    text-align: center;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 728px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.mentor-wrapper {
+    display: flex;
+   justify-content: space-between;
+}
+
+.img-mentor-wrapper {
+    border: 2px solid var(--primary-color);
+}
+
+.mentor-desc .name {
+    color: var(--text-color);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 13px;
+}
+
+.mentor-desc .role {
+    color: var(--text-color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.medsos {
+    margin-top: 18px;
+}
+
+.medsos i {
+    margin-right: 10px;
+    font-size: 24px;
+    color: var(--primary-color);
+}
+
+
+/* RESPONSIF */
+
+@media(max-width:1366px) {
+
+    .menu-item {
+        margin-right: 60px;
+        font-size: 16px;
+    }
+    .hero-left h2 {
+        font-size: 38px;
+        width: 550px;
+        margin-bottom: 15px;
+    }
+
+    .hero-left p {
+        font-size: 16px;
+        width: 500px;
+    }
+
+    .hero-right img {
+        width: 500px;
+        height: 400px;
+    }
+
+    /* why grow */
+    .why-right h1 {
+        font-size: 38px;
+    }
+
+    .benefit .benefit-desc {
+        width: 420px;
+        padding: 20px 20px 20px 35px;
+    }
+
+    .benefit-desc h5 {
+        font-size: 18px;
+    }
+    
+    .benefit-desc p {
+        font-size: 15px;;
+    }
+
+    /* New Program */
+    .new-program h1 {
+        font-size: 38px;
+    }
+
+    .img-program {
+        width: 350px;
+        height: 210px;
+    }
+
+    .program .program-name {
+        font-size: 18px;
+    }
+
+    .program .level-mudah {
+        padding: 6px 15px;
+    }
+    .program .level-menengah {
+        padding: 6px 15px;
+    }
+    .program .level-sulit {
+        padding: 6px 15px;
+    }
+
+    .program-desc {
+        font-size: 15px;
+        width: 350px;
+    }
+}
+
+@media(max-width:768px) {
+
+    section {
+        padding-left: 30px;
+        padding-right: 10px;
+        height:auto;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 35px;
+        padding-left: 10px;
+        padding-right: 10px;
+        align-items: center;
+    }
+
+    .menu-item {
+        margin-right: 30px;
+        font-size: 14px;
+    }
+
+    .navbar .btn-primary {
+        font-size: 13px;
+        padding: 8px 16px;
+    }
+
+    .navbar .btn-line{
+        font-size: 13px;
+        padding: 8px 16px;
+        margin-left: 5px;
+    }
+
+
+    /* Hero */
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
+    
+    .hero-left h2 {
+        font-size: 40px;
+        width: 600px;
+        margin-bottom: 10px;
+        margin-top: 27px;
+        
+    }
+    .hero-left button {
+        margin-top: 30px;
+    }
+    
+    /* Brand */
+    .brand-wrapper img {
+        width: 100px;
+        height: 38px;
+    }
+
+    /* Why Grow */
+
+    .why-grow {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding-top: 30px;
+    }
+
+    .benefit .benefit-desc {
+        width: 540px;
+    }
+
+    /* New program */
+    .new-program {
+        padding-top: 30px;
+    }
+    .new-program h1 {
+        text-align: center;
+    }
+    .program-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .program {
+        display: flex;
+        gap: 40px;
+        align-items: center;
+    }
+
+    .program .img-program {
+        width: 280px;
+        height: 150px;
+    }
+
+}
